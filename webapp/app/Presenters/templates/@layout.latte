@@ -10,6 +10,12 @@
 <body>
 	<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 
+	<a n:href="Homepage:default">Home</a>
+
+	<a n:href="Userpage:default">Users</a>
+
+	<h1>Nette dockerization template by Patrik Duch</h1>
+
 	{include content}
 
 	{block scripts}
