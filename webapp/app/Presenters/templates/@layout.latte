@@ -5,21 +5,32 @@
 	<meta name="viewport" content="width=device-width">
 
 	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette Web</title>
+
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-1.7.0.min.js"  integrity="sha256-/05Jde9AMAT4/o5ZAI23rUf1SxDYTHLrkOco0eyRV84="crossorigin="anonymous"></script>
+
+
+
 </head>
 
 <body>
 	<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 
-	<a n:href="Homepage:default">Home</a>
 
-	<a n:href="Userpage:default">Users</a>
 
 	<h1>Nette dockerization template by Patrik Duch</h1>
 
 	{include content}
 
 	{block scripts}
+
+
+	
+	<!-- jQuery Nette -->
+	<script src="{$basePath}/static/js/jquery.nette.js"></script>
 	<script src="https://nette.github.io/resources/js/3/netteForms.min.js"></script>
+	
 	{/block}
 </body>
 </html>

@@ -1,4 +1,31 @@
 {block content}
 <div>
 	<p>Homepage</p>
+
+
+	<a class="ajax" n:href="changeFoo!">Change</a>
+
+
+	{snippet clicked_area}
+
+		{$clicked ? "Kliknuto": "Nekliknuto"}
+	
+	{/snippet}
+
+
+	
 </div>
+
+
+<script>
+
+$(function() {
+
+	$('a ajax').live('click', function() {
+		$.get(this.href);
+		return false;
+	});
+
+});
+
+</script>
