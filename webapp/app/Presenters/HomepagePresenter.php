@@ -20,7 +20,7 @@ final class HomepagePresenter extends Nette\Application\UI\Presenter
 
 
     /* Signal */
-    public function handleChangeFoo() {
+    public function handleChangeClickState() {
         $this->clicked = !($this->clicked);
 
         if ($this->isAjax()) {
