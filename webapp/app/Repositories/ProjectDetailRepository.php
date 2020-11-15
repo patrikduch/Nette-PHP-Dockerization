@@ -4,16 +4,20 @@ namespace App\Repositories;
 
 use Nette;
 
-class ProjectDetailRepository {
+class ProjectDetailRepository
+{
 
     private $database;
 
-    public function __construct(Nette\Database\Context $database) {
+    public function __construct(Nette\Database\Context $database)
+    {
         $this->database = $database;
     }
 
-    public function getProjectName() {
+    public function getProjectName()
+    {
+        return $this->database->table('PROJECTDETAIL')->limit(1);
 
-        return $this->database->fetch('SELECT name FROM PROJECTDETAIL');
+        //return "Ahoj";
     }
 }

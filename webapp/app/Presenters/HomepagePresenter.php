@@ -15,13 +15,15 @@ final class HomepagePresenter extends Nette\Application\UI\Presenter
     private $clicked = false;
     private $projectDetailRepository;
 
-    public function __construct(Nette\Database\Context $database, ProjectDetailRepository $projectDetailRepository) {
+    public function __construct(Nette\Database\Context $database, ProjectDetailRepository $projectDetailRepository)
+    {
         $this->projectDetailRepository = $projectDetailRepository;
     }
 
 
     /* Signal */
-    public function handleChangeClickState() {
+    public function handleChangeClickState()
+    {
         $this->clicked = !($this->clicked);
 
         if ($this->isAjax()) {
@@ -29,9 +31,9 @@ final class HomepagePresenter extends Nette\Application\UI\Presenter
         }
     }
 
-    public function renderDefault() {
-        $this->template->projectDetail = $this->projectDetailRepository;
+    public function renderDefault()
+    {
+        $this->template->projectDetail = $this->projectDetailRepository->getProjectName();
         $this->template->clicked = $this->clicked;
     }
-
 }

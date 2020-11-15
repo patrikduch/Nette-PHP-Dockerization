@@ -1,13 +1,14 @@
 {block content}
 <div class="container ">
-	<h2 class="text-center">Nette dockerization template by Patrik Duch</h2>
+	<h2 class="text-center" n:foreach="$projectDetail as $item">
+		{$item->NAME}
+	</h2>
+
 	<a class="ajax" n:href="changeClickState!">Change</a>
 
 	{snippet clicked_area}
 		{$clicked ? "Kliknuto": "Nekliknuto"}
 	{/snippet}
-
-	{dump($projectDetail)}
 
 </div>
 
