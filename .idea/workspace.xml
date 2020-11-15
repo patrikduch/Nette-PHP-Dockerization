@@ -20,39 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NettePHP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Signup/default.latte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/UserAuth/default.latte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/Repositories/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/Services/MyAuthenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserpagePresenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Userpage/login.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Userpage/signup.latte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Repositories/ProjectDetailRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Repositories/ProjectDetailRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Services/MyAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/config/common.neon" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/config/common.neon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605462706954</updated>
-      <workItem from="1605462708228" duration="7157000" />
+      <workItem from="1605462708228" duration="10534000" />
     </task>
     <servers />
   </component>
@@ -150,10 +123,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="591" y="263" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1605464788845" />
-    <state x="419" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605474865275">
+    <state x="419" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605476927221">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="419" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.920@0.0.1707.920" timestamp="1605474865275" />
+    <state x="419" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.920@0.0.1707.920" timestamp="1605476927221" />
     <state x="584" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605474575038">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

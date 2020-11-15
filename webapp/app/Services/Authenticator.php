@@ -1,8 +1,10 @@
 <?php
 
+namespace App\Services;
+
 use Nette;
 
-class MyAuthenticator implements Nette\Security\IAuthenticator
+final class Authenticator implements Nette\Security\IAuthenticator
 {
     private $database;
     private $passwords;
@@ -17,7 +19,7 @@ class MyAuthenticator implements Nette\Security\IAuthenticator
     {
         [$username, $password] = $credentials;
 
-        $row = $this->database->table('users')
+        $row = $this->database->table('User')
             ->where('username', $username)
             ->fetch();
 
@@ -31,7 +33,6 @@ class MyAuthenticator implements Nette\Security\IAuthenticator
 
         return new Nette\Security\Identity(
             $row->id,
-            $row->role, // nebo pole více rolí
             ['name' => $row->username]
         );
     }

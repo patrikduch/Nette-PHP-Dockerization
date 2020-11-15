@@ -28,3 +28,6 @@ services:
 	    class: App\Repositories\UserRepository
 	passwordEncrypterService:
 	    class: App\Services\PasswordEncrypter
+
+	authenticator:
+	    class: App\Services\Authenticator
