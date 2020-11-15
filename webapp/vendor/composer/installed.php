@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v3.0.7',
-    'version' => '3.0.7.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '3a8532f424ebbc771ce2c2a3bbfbfaf625c6ee17',
     'name' => 'nette/web-project',
   ),
   'versions' => 
@@ -184,12 +184,12 @@
     ),
     'nette/web-project' => 
     array (
-      'pretty_version' => 'v3.0.7',
-      'version' => '3.0.7.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '3a8532f424ebbc771ce2c2a3bbfbfaf625c6ee17',
     ),
     'symfony/thanks' => 
     array (

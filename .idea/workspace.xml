@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/NettePHP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Signup/default.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/UserAuth/default.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Services/MyAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserpagePresenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Userpage/login.latte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Userpage/signup.latte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Repositories/ProjectDetailRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Repositories/ProjectDetailRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/config/common.neon" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/config/common.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/platform_check.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/webapp/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/caching" />
+      <path value="$PROJECT_DIR$/webapp/vendor/latte/latte" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/security" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/database" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/application" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/di" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/tester" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/routing" />
+      <path value="$PROJECT_DIR$/webapp/vendor/composer" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/mail" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/neon" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/bootstrap" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/http" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/finder" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/component-model" />
+      <path value="$PROJECT_DIR$/webapp/vendor/nette/forms" />
+      <path value="$PROJECT_DIR$/webapp/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/webapp/vendor/tracy/tracy" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1kKwh3hKXkMm8eDTxe6Sdv9URFa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="" />
+      <created>1605462706954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605462706954</updated>
+      <workItem from="1605462708228" duration="7157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="116" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605462754302">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="309" y="116" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.920@0.0.1707.920" timestamp="1605462754302" />
+    <state x="591" y="263" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605464788845">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="591" y="263" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1605464788845" />
+    <state x="419" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605474865275">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="419" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.920@0.0.1707.920" timestamp="1605474865275" />
+    <state x="584" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605474575038">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="584" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1707.920@0.0.1707.920" timestamp="1605474575038" />
+    <state x="693" y="341" key="DockerComposeFileDialog" timestamp="1605462749569">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="693" y="341" key="DockerComposeFileDialog/0.0.1707.920@0.0.1707.920" timestamp="1605462749569" />
+    <state x="635" y="228" key="FileChooserDialogImpl" timestamp="1605462747905">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="635" y="228" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605462747905" />
+  </component>
+</project>
