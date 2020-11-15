@@ -1,21 +1,22 @@
 <?php
 
-declare(strict_types=1);
+
 
 namespace App\Presenters;
 
 use Nette;
+
+use App\Repositories\ProjectDetailRepository;
 
 
 final class HomepagePresenter extends Nette\Application\UI\Presenter
 {
 
     private $clicked = false;
+    private $projectDetailRepository;
 
-    private $database;
-
-    public function __construct(Nette\Database\Context $database) {
-        $this->database = $database;
+    public function __construct(Nette\Database\Context $database, ProjectDetailRepository $projectDetailRepository) {
+        $this->projectDetailRepository = $projectDetailRepository;
     }
 
 
@@ -29,11 +30,8 @@ final class HomepagePresenter extends Nette\Application\UI\Presenter
     }
 
     public function renderDefault() {
-        $this->template->projectDetail = $this->database->table('ProjectDetail')->limit(1);
+        $this->template->projectDetail = $this->projectDetailRepository;
         $this->template->clicked = $this->clicked;
     }
-
-
-
 
 }

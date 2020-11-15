@@ -19,3 +19,6 @@ di:
 
 services:
 	router: App\Router\RouterFactory::createRouter
+
+	projectDetailRepository:
+		class: App\Repositories\ProjectDetailRepository
