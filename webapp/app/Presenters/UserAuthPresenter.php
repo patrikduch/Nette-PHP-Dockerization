@@ -71,13 +71,12 @@ final class UserAuthPresenter extends BasePresenter {
         // tady zpracujeme data odeslaná formulářem
         // $data->name obsahuje jméno
         // $data->password obsahuje heslo
-
-        $this->authenticator->authenticate([$data->username, $data->password]);
-
         try {
+            $this->authenticator->authenticate([$data->username, $data->password]);
             $this->user->login($data->username, $data->password);
         } catch (Nette\Security\AuthenticationException $e) {
             $this->flashMessage('The username or password you entered is incorrect.');
+            return;
         }
 
         //$this->flashMessage('Byl jste úspěšně přihlášen.');

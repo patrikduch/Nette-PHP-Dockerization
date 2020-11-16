@@ -20,23 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webapp/app/core/interfaces/repositories/IProjectDetailRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/core/interfaces/repositories/IUserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/ProjectDetailRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/BasePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/BasePresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/ProfileEditPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/ProfileEditPresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Repositories/ProjectDetailRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Services/PasswordEncrypter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Services/PasswordEncrypter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/config/common.neon" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/config/common.neon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/www/static/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/www/static/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/ProfileEdit/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/ProfileEdit/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Signup/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Signup/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/UserAuth/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/UserAuth/default.latte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +105,8 @@
       <updated>1605462706954</updated>
       <workItem from="1605462708228" duration="10534000" />
       <workItem from="1605481434638" duration="660000" />
-      <workItem from="1605482414831" duration="16771000" />
+      <workItem from="1605482414831" duration="17121000" />
+      <workItem from="1605530983744" duration="541000" />
     </task>
     <servers />
   </component>
