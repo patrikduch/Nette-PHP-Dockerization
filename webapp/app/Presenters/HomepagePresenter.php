@@ -3,14 +3,12 @@
 
 
 namespace App\Presenters;
-
+use App\Repositories\ProjectDetailRepository;
 use App\Services\Authenticator;
 use Nette;
+use App\Presenters\BasePresenter;
 
-use App\Repositories\ProjectDetailRepository;
-
-
-final class HomepagePresenter extends Nette\Application\UI\Presenter
+final class HomepagePresenter extends BasePresenter
 {
     private $clicked = false;
     private $projectDetailRepository;

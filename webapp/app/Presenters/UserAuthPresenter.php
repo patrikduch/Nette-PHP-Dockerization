@@ -9,8 +9,7 @@ use Contributte\FormsBootstrap\BootstrapForm;
 use Contributte\FormsBootstrap\Enums\RenderMode;
 use Nette;
 
-
-final class UserAuthPresenter extends Nette\Application\UI\Presenter {
+final class UserAuthPresenter extends BasePresenter {
     private $authenticator;
     private $database;
     private $passwordEncrypter;
@@ -59,12 +58,13 @@ final class UserAuthPresenter extends Nette\Application\UI\Presenter {
             $this->flashMessage('The username or password you entered is incorrect.');
         }
 
-        $this->flashMessage('Byl jste úspěšně přihlášen.');
+        //$this->flashMessage('Byl jste úspěšně přihlášen.');
         $this->redirect('Homepage:');
     }
 
     public function renderDefault() {
 
     }
+
 
 }

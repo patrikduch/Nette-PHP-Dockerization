@@ -8,7 +8,7 @@ use Contributte\FormsBootstrap\BootstrapForm;
 use Contributte\FormsBootstrap\Enums\RenderMode;
 
 
-final class SignupPresenter extends Nette\Application\UI\Presenter {
+final class SignupPresenter extends BasePresenter {
     private $database;
     private $userRepository;
 

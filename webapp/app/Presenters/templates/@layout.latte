@@ -30,7 +30,7 @@
 				</li>
 			</ul>
 
-			<ul class="navbar-nav">
+			<ul class="navbar-nav"  n:if="(!($user->isLoggedIn()))">
 				<li class="nav-item">
 					<a class="nav-link" n:href="UserAuth:default">Login</a>
 				</li>
@@ -38,6 +38,12 @@
 					<a class="nav-link" n:href="Signup:default">Register</a>
 				</li>
         	</ul>
+
+			<ul class="navbar-nav"  n:if="$user->isLoggedIn()">
+				<li class="nav-item">
+					<a class="nav-link" n:href=":UserLogout!">Logout</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
 
