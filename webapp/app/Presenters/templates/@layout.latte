@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette Web</title>
+	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette dockerization by Patrik Duch</title>
 
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-1.7.0.min.js"  integrity="sha256-/05Jde9AMAT4/o5ZAI23rUf1SxDYTHLrkOco0eyRV84="crossorigin="anonymous"></script>
@@ -18,17 +18,18 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" n:href="Homepage:default">Nette dockerization</a>
+		<a class="navbar-brand" n:href="Homepage:default">
+			<h1 class="display-4" n:foreach="$projectDetail as $item">
+				{$item->NAME}
+			</h1>
+		</a>
+
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" n:href="Homepage:default">Home</a>
-				</li>
-			</ul>
+			<ul class="navbar-nav mr-auto"></ul>
 
 			<ul class="navbar-nav"  n:if="(!($user->isLoggedIn()))">
 				<li class="nav-item">
@@ -52,9 +53,11 @@
 		</div>
 	</nav>
 
-	<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+	<div class="container">
+		<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+		{include content}
+	</div>
 
-	{include content}
 
 	{block scripts}
 

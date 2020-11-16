@@ -2,19 +2,30 @@
 
 namespace App\Presenters;
 
-use App\Repositories\UserRepository;
+use App\Infrastructure\Repositories\UserRepository;
 use App\Services\Authenticator;
 use App\Services\PasswordEncrypter;
 use Contributte\FormsBootstrap\BootstrapForm;
 use Contributte\FormsBootstrap\Enums\RenderMode;
 use Nette;
 
+/**
+ * User auth presenter for handling login process.
+ * @package App\Presenters
+ */
 final class UserAuthPresenter extends BasePresenter {
     private $authenticator;
     private $database;
     private $passwordEncrypter;
     private $userRepository;
 
+    /**
+     * UserAuthPresenter constructor.
+     * @param Nette\Database\Context $database
+     * @param UserRepository $userRepository
+     * @param Authenticator $authenticator
+     * @param PasswordEncrypter $passwordEncrypter
+     */
     public function __construct(Nette\Database\Context $database, UserRepository $userRepository,
                                 Authenticator $authenticator, PasswordEncrypter  $passwordEncrypter) {
         $this->authenticator = $authenticator;
@@ -23,6 +34,10 @@ final class UserAuthPresenter extends BasePresenter {
         $this->userRepository = $userRepository;
     }
 
+    /**
+     * Creation of login form.
+     * @return BootstrapForm Returns Boostrap form.
+     */
     protected function createComponentLoginForm(): BootstrapForm
     {
         $form = new BootstrapForm;
@@ -44,6 +59,13 @@ final class UserAuthPresenter extends BasePresenter {
         return $form;
     }
 
+    /**
+     * Form processing handler.
+     * @param BootstrapForm $form Bootstrap form instance.
+     * @param $data data Passed form data.
+     * @throws Nette\Application\AbortException
+     * @throws Nette\Security\AuthenticationException
+     */
     public function formSucceeded(BootstrapForm $form, $data): void
     {
         // tady zpracujeme data odeslaná formulářem
@@ -62,6 +84,9 @@ final class UserAuthPresenter extends BasePresenter {
         $this->redirect('Homepage:');
     }
 
+    /**
+     * Renders default view (default.latte).
+     */
     public function renderDefault() {
 
     }

@@ -20,10 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/ProfileEditPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/ProfileEdit/default.latte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/core/interfaces/repositories/IProjectDetailRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/core/interfaces/repositories/IUserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/ProjectDetailRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/BasePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/BasePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/ProfileEditPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/ProfileEditPresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Repositories/ProjectDetailRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Services/PasswordEncrypter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Services/PasswordEncrypter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/config/common.neon" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/config/common.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/www/static/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/www/static/css/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +90,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\NettePHP\webapp\app\infrastructure\repositories" />
+      <recent name="D:\Projects\NettePHP\webapp\app\core\interfaces\repositories" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="App" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
@@ -97,7 +116,7 @@
       <updated>1605462706954</updated>
       <workItem from="1605462708228" duration="10534000" />
       <workItem from="1605481434638" duration="660000" />
-      <workItem from="1605482414831" duration="5808000" />
+      <workItem from="1605482414831" duration="16771000" />
     </task>
     <servers />
   </component>
@@ -129,10 +148,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="419" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1707.920@0.0.1707.920" timestamp="1605476927221" />
-    <state x="584" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605474575038">
+    <state x="584" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605522835829">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="584" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1707.920@0.0.1707.920" timestamp="1605474575038" />
+    <state x="584" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1707.920@0.0.1707.920" timestamp="1605522835829" />
     <state x="693" y="341" key="DockerComposeFileDialog" timestamp="1605462749569">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -141,9 +160,21 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="635" y="228" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605462747905" />
-    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1605484805049">
+    <state x="626" y="184" key="NewPhpClassDialog" timestamp="1605522474364">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1605484805049" />
+    <state x="626" y="184" key="NewPhpClassDialog/0.0.1707.920@0.0.1707.920" timestamp="1605522474364" />
+    <state x="690" y="384" key="NewPhpFileDialog" timestamp="1605517067619">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="690" y="384" key="NewPhpFileDialog/0.0.1707.920@0.0.1707.920" timestamp="1605517067619" />
+    <state x="510" y="211" key="run.anything.popup" timestamp="1605524570321">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="510" y="211" key="run.anything.popup/0.0.1707.920@0.0.1707.920" timestamp="1605524570321" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1605525648323">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1605525648323" />
   </component>
 </project>

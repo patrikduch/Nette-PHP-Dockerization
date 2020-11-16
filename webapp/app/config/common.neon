@@ -25,7 +25,7 @@ services:
 	projectDetailRepository:
 		class: App\Repositories\ProjectDetailRepository
 	userRepository:
-	    class: App\Repositories\UserRepository
+	    class: App\Infrastructure\Repositories\UserRepository
 	passwordEncrypterService:
 	    class: App\Services\PasswordEncrypter
 

@@ -1,26 +1,22 @@
 <?php
 
-
-
 namespace App\Presenters;
+
 use App\Repositories\ProjectDetailRepository;
 use App\Services\Authenticator;
 use Nette;
 use App\Presenters\BasePresenter;
 
+/**
+ * Class HomepagePresenter
+ * @package App\Presenters
+ */
 final class HomepagePresenter extends BasePresenter
 {
     private $clicked = false;
-    private $projectDetailRepository;
-    private $user;
-
-
-    public function __construct(ProjectDetailRepository $projectDetailRepository)
-    {
-        $this->projectDetailRepository = $projectDetailRepository;
-    }
-
-    /* Signal */
+    /**
+     * Handler of async signal event.
+     */
     public function handleChangeClickState()
     {
         $this->clicked = !($this->clicked);
@@ -30,10 +26,11 @@ final class HomepagePresenter extends BasePresenter
         }
     }
 
+    /**
+     * Renders default view (default.latte).
+     */
     public function renderDefault()
     {
-        $this->template->projectDetail = $this->projectDetailRepository->getProjectName();
         $this->template->clicked = $this->clicked;
-        $this->template->isAuthenticated = $this->getUser()->isLoggedIn();
     }
 }
