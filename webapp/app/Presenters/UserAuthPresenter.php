@@ -5,8 +5,10 @@ namespace App\Presenters;
 use App\Repositories\UserRepository;
 use App\Services\Authenticator;
 use App\Services\PasswordEncrypter;
+use Contributte\FormsBootstrap\BootstrapForm;
+use Contributte\FormsBootstrap\Enums\RenderMode;
 use Nette;
-use Nette\Application\UI\Form;
+
 
 final class UserAuthPresenter extends Nette\Application\UI\Presenter {
     private $authenticator;
@@ -22,28 +24,37 @@ final class UserAuthPresenter extends Nette\Application\UI\Presenter {
         $this->userRepository = $userRepository;
     }
 
-    protected function createComponentLoginForm(): Form
+    protected function createComponentLoginForm(): BootstrapForm
     {
-        $form = new Form;
-        $form->addText('name', 'Jméno:')
-            ->setRequired('Zadejte prosím jméno');
-        $form->addPassword('password', 'Heslo:')
-            ->setRequired('Zadejte prosim heslo');
-        $form->addSubmit('send', 'Přihlásit se');
+        $form = new BootstrapForm;
+        $form->renderMode = RenderMode::VERTICAL_MODE;
+        $row = $form->addRow();
+        $row->addCell(6)
+            ->addText('username', 'Enter username...')
+            ->setRequired('Please enter your username');
+
+
+        $secondRow= $form->addRow();
+        $secondRow->addCell(6)
+            ->addPassword('password', 'Enter password...')
+            ->setRequired('Please enter your password');
+
+
+        $form->addSubmit('send', 'Login in');
         $form->onSuccess[] = [$this, 'formSucceeded'];
         return $form;
     }
 
-    public function formSucceeded(Form $form, $data): void
+    public function formSucceeded(BootstrapForm $form, $data): void
     {
         // tady zpracujeme data odeslaná formulářem
         // $data->name obsahuje jméno
         // $data->password obsahuje heslo
 
-        $this->authenticator->authenticate([$data->name, $data->password]);
+        $this->authenticator->authenticate([$data->username, $data->password]);
 
         try {
-            $this->user->login($data->name, $data->password);
+            $this->user->login($data->username, $data->password);
         } catch (Nette\Security\AuthenticationException $e) {
             $this->flashMessage('The username or password you entered is incorrect.');
         }

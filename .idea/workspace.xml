@@ -20,19 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NettePHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NettePHP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Services/MyAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/config/common.neon" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/config/common.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/webapp/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -63,6 +72,7 @@
       <path value="$PROJECT_DIR$/webapp/vendor/nette/forms" />
       <path value="$PROJECT_DIR$/webapp/vendor/symfony/thanks" />
       <path value="$PROJECT_DIR$/webapp/vendor/tracy/tracy" />
+      <path value="$PROJECT_DIR$/webapp/vendor/contributte/forms-bootstrap" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kKwh3hKXkMm8eDTxe6Sdv9URFa" />
@@ -97,6 +107,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605462706954</updated>
       <workItem from="1605462708228" duration="10534000" />
+      <workItem from="1605481434638" duration="660000" />
+      <workItem from="1605482414831" duration="2980000" />
     </task>
     <servers />
   </component>
@@ -113,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="116" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605462754302">
@@ -139,5 +152,9 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="635" y="228" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1605462747905" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1605484805049">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1605484805049" />
   </component>
 </project>

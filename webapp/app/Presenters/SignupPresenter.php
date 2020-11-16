@@ -2,10 +2,11 @@
 
 namespace App\Presenters;
 
-
 use App\Repositories\UserRepository;
 use Nette;
-use Nette\Application\UI\Form;
+use Contributte\FormsBootstrap\BootstrapForm;
+use Contributte\FormsBootstrap\Enums\RenderMode;
+
 
 final class SignupPresenter extends Nette\Application\UI\Presenter {
     private $database;
@@ -16,25 +17,34 @@ final class SignupPresenter extends Nette\Application\UI\Presenter {
         $this->userRepository = $userRepository;
     }
 
-    protected function createComponentRegistrationForm(): Form
+    protected function createComponentRegistrationForm(): BootstrapForm
     {
-        $form = new Form;
-        $form->addText('name', 'Jméno:')
-            ->setRequired('Zadejte prosím jméno');
-        $form->addPassword('password', 'Heslo:')
-            ->setRequired('Zadejte prosim heslo');
+        $form = new BootstrapForm;
+        $form->renderMode = RenderMode::VERTICAL_MODE;
+        $row = $form->addRow();
+        $row->addCell(6)
+            ->addText('username', 'Enter username...')
+            ->setRequired('Please enter your username');
+
+
+        $secondRow= $form->addRow();
+        $secondRow->addCell(6)
+            ->addPassword('password', 'Enter password...')
+            ->setRequired('Please enter your password');
+
+
         $form->addSubmit('send', 'Registrovat');
         $form->onSuccess[] = [$this, 'formSucceeded'];
         return $form;
     }
 
-    public function formSucceeded(Form $form, $data): void
+    public function formSucceeded(BootstrapForm $form, $data): void
     {
         // tady zpracujeme data odeslaná formulářem
         // $data->name obsahuje jméno
         // $data->password obsahuje heslo
 
-        $this->userRepository->signUpUser($data->name, $data->password);
+        $this->userRepository->signUpUser($data->username, $data->password);
 
 
         $this->flashMessage('Byl jste úspěšně registrován.');

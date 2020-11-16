@@ -24,6 +24,7 @@
       <path value="$PROJECT_DIR$/webapp/vendor/nette/forms" />
       <path value="$PROJECT_DIR$/webapp/vendor/symfony/thanks" />
       <path value="$PROJECT_DIR$/webapp/vendor/tracy/tracy" />
+      <path value="$PROJECT_DIR$/webapp/vendor/contributte/forms-bootstrap" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
