@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/BasePresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/ProfileEditPresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/ProfileEdit/default.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/SignupPresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,7 @@
       <updated>1605462706954</updated>
       <workItem from="1605462708228" duration="10534000" />
       <workItem from="1605481434638" duration="660000" />
-      <workItem from="1605482414831" duration="5314000" />
+      <workItem from="1605482414831" duration="5808000" />
     </task>
     <servers />
   </component>
