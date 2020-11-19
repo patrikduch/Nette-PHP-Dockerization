@@ -48,6 +48,7 @@ final class Authenticator implements Nette\Security\IAuthenticator
 
         return new Nette\Security\Identity(
             $row->id,
+            $row->role, // nebo pole více rolí
             ['name' => $row->username]
         );
     }

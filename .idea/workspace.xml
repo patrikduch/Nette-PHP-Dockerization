@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecc626fc-b618-4186-935f-ea9eac11e159" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/insert-db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/UserAuthPresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/create-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/HomepagePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/@layout.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Homepage/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/ProfileEdit/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/ProfileEdit/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/Signup/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/Signup/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app/Presenters/templates/UserAuth/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Presenters/templates/UserAuth/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/Services/Authenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/ProjectDetailRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/ProjectDetailRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app/infrastructure/repositories/UserRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,11 @@
       <workItem from="1605462708228" duration="10534000" />
       <workItem from="1605481434638" duration="660000" />
       <workItem from="1605482414831" duration="17121000" />
-      <workItem from="1605530983744" duration="541000" />
+      <workItem from="1605530983744" duration="806000" />
+      <workItem from="1605742992068" duration="199000" />
+      <workItem from="1605774052358" duration="1997000" />
+      <workItem from="1605776121170" duration="46000" />
+      <workItem from="1605777256778" duration="1043000" />
     </task>
     <servers />
   </component>

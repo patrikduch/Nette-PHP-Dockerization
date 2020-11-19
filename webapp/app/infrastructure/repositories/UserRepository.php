@@ -37,8 +37,8 @@ final class UserRepository implements IUserRepository {
 
         if ($passwordHash) {
             $this->database->query(
-                "INSERT INTO User (username, password)
-                    VALUES ('$username', '$passwordHash');");
+                "INSERT INTO User (username, password, role)
+                    VALUES ('$username', '$passwordHash', 'admin');");
         }
     }
 

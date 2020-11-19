@@ -28,6 +28,6 @@ final class ProjectDetailRepository implements IProjectDetailRepository
      */
     public function getProjectName()
     {
-        return $this->database->table('PROJECTDETAIL')->limit(1);
+        return $this->database->table('ProjectDetail')->limit(1);
     }
 }

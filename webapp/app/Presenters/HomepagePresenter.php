@@ -31,6 +31,18 @@ final class HomepagePresenter extends BasePresenter
      */
     public function renderDefault()
     {
-        $this->template->clicked = $this->clicked;
+
+        if ($this->user->isInRole('admin')) {
+            $this->template->content = "Content for admin users.";
+
+        } else if ($this->user->isInRole('user')) {
+            $this->template->content = "Content for regular users.";
+        }
+
+        else {
+
+            $this->template->content = "Content for guest users.";
+        }
+
     }
 }
